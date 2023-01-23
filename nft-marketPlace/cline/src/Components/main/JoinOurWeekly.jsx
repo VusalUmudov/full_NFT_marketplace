@@ -5,7 +5,7 @@ function JoinOurWeekly() {
     <section class="app__joinourweekly">
         <div class="app__content">
             <div class="app_content_image">
-                <img src={require("./Images/photos/Photo.png")} alt=""/>
+                <img src={require("../Images/photos/Photo.png")} alt=""/>
             </div>
             <div class="app_content_text">
                 <div class="app_contenttextpart_top">

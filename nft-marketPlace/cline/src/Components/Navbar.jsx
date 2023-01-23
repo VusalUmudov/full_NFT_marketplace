@@ -1,4 +1,5 @@
 import React from 'react'
+import { Toaster } from 'react-hot-toast'
 import { Link } from 'react-router-dom'
 
 function Navbar() {
@@ -101,8 +102,9 @@ function Navbar() {
 
                     </div>
 
-
                 </div>
+                <Toaster position="top-center" reverseOrder={false} />
+
             </div>
         </nav>
     )

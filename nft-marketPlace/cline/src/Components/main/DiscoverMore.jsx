@@ -102,7 +102,7 @@ function DiscoverMore() {
                 </div>
 
                 <button class="ali_section_discover_more_cards_btn_phone">
-                    <img src="./picsAli/Eye.png" alt=""/>
+                    <img src="../Images/picsAli/Eye.png" alt=""/>
                     <p>See All</p>
                 </button>
                 {/* <!-- DISCOVER MORE BUTTON FOR PHONE --> */}

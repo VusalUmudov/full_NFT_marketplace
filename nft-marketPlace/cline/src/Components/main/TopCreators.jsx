@@ -172,7 +172,7 @@ function TopCreators() {
                 </div>
             </div>
 
-            <button class="app__topcreators__lastbutton"><img src="./assets/image/top-creators/RocketLaunch (1).png"
+            <button class="app__topcreators__lastbutton"><img src="./Image/image/top-creators/RocketLaunch (1).png"
                     alt=""/>
                 <span>View Rankings</span>
             </button>

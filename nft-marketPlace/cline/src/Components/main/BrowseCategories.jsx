@@ -14,7 +14,7 @@ function BrowseCategories() {
                     {/*  CARD FRIST FOUR */}
                     <div class="ali_section_browse_categories_cards_first-four">
                         <div class="ali_section_browse_categories_cards_art">
-                            <img src={require("./Images/picsAli/Category Icon (1).png")} alt="art icon"/>
+                            <img src={require("../Images/picsAli/Category Icon (1).png")} alt="art icon"/>
 
                             <div class="ali_section_browse_categories_cards_text">
                                 <p>Art</p>
@@ -22,21 +22,21 @@ function BrowseCategories() {
                         </div>
 
                         <div class="ali_section_browse_categories_cards_art">
-                        <img src={require("./Images/picsAli/Category Icon (2).png")} alt="art icon"/>
+                        <img src={require("../Images/picsAli/Category Icon (2).png")} alt="art icon"/>
                             <div class="ali_section_browse_categories_cards_text">
                                 <p>Collectibles</p>
                             </div>
                         </div>
 
                         <div class="ali_section_browse_categories_cards_art">
-                        <img src={require("./Images/picsAli/Category Icon (3).png")} alt="art icon"/>
+                        <img src={require("../Images/picsAli/Category Icon (3).png")} alt="art icon"/>
                             <div class="ali_section_browse_categories_cards_text">
                                 <p>Music</p>
                             </div>
                         </div>
 
                         <div class="ali_section_browse_categories_cards_art">
-                        <img src={require("./Images/picsAli/Category Icon (4).png")} alt="art icon"/>
+                        <img src={require("../Images/picsAli/Category Icon (4).png")} alt="art icon"/>
                             <div class="ali_section_browse_categories_cards_text">
                                 <p>Photography</p>
                             </div>
@@ -47,7 +47,7 @@ function BrowseCategories() {
                     <div class="ali_section_browse_categories_cards_second-four">
 
                         <div class="ali_section_browse_categories_cards_art">
-                            <img src={require("./Images/picsAli/Photo & Icon.png")} alt="art icon"/>
+                            <img src={require("../Images/picsAli/Photo & Icon.png")} alt="art icon"/>
 
                             <div class="ali_section_browse_categories_cards_text">
                                 <p>Video</p>
@@ -55,7 +55,7 @@ function BrowseCategories() {
                         </div>
 
                         <div class="ali_section_browse_categories_cards_art">
-                            <img src={require("./Images/picsAli/Category Icon (5).png")} alt="art icon"/>
+                            <img src={require("../Images/picsAli/Category Icon (5).png")} alt="art icon"/>
 
                             <div class="ali_section_browse_categories_cards_text">
                                 <p>Utility</p>
@@ -63,7 +63,7 @@ function BrowseCategories() {
                         </div>
 
                         <div class="ali_section_browse_categories_cards_art">
-                            <img src={require("./Images/picsAli/Photo & Icon (1).png")} alt="art icon"/>
+                            <img src={require("../Images/picsAli/Photo & Icon (1).png")} alt="art icon"/>
 
                             <div class="ali_section_browse_categories_cards_text">
                                 <p>Sport</p>
@@ -71,7 +71,7 @@ function BrowseCategories() {
                         </div>
 
                         <div class="ali_section_browse_categories_cards_art">
-                            <img src={require("./Images/picsAli/Category Icon (6).png")} alt="art icon"/>
+                            <img src={require("../Images/picsAli/Category Icon (6).png")} alt="art icon"/>
 
                             <div class="ali_section_browse_categories_cards_text">
                                 <p>Virtual Worlds</p>
