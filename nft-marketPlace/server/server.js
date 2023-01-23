@@ -9,8 +9,7 @@ const app = express();
 
 const PORT = 8080;
 
-let img =
-    "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/avatar-placeholder-129@2x.png";
+let img = "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/avatar-placeholder-6@2x.png";
 
 let imgNft = "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/image-placeholder@2x.png";
 
@@ -65,7 +64,6 @@ const AddNFtSchema = Joi.object({
 app.use(express.json());
 app.use(cors());
 
-// ARTIST POST
 app.post(
     "/api/artists",
     (req, res, next) => {
@@ -98,7 +96,6 @@ app.post(
     }
 );
 
-// ARTIST GET
 app.get("/api/artists", (req, res) => {
     ArtistModel.find()
         .populate("nft")
@@ -109,7 +106,6 @@ app.get("/api/artists", (req, res) => {
         });
 });
 
-//NFT get
 app.get("/api/marketplace", (req, res) => {
 
     NFTmodel.find()
@@ -121,7 +117,6 @@ app.get("/api/marketplace", (req, res) => {
         });
 });
 
-//NFT POST
 app.post(
     "/api/marketplace/:userId",
     (req, res, next) => {
